@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Corte Desarrollo Web</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Primer Parcial Desarollo Web</h1>
+    <p>Nombre: Julian Camilo Nanez</p>
+    <p>Código: 2116640</p>
+    <p>La ecuación es: $$Y = \arcsin(x_1) + \arcsin(x_2) + \arccos(x_3) + \arccos(x_4) + \sqrt{x_5} + \sqrt{x_6} + \frac{x_7}{x_8} + \frac{x_9}{x_{10}} + \frac{x_{11}}{x_{12}} + \ln(x_{13}) + \ln(x_{14})$$</p>
+
+    <button id="procesar">Procesar</button>
+    <div id="resultados">
+        <table>
+            <thead>
+                <tr>
+                    <th>Totales</th>
+                    <th>Porcentaje</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="errores-arcoseno"></td>
+                    <td id="porcentaje-arcoseno"></td>
+                </tr>
+                <tr>
+                    <td id="errores-arcocoseno"></td>
+                    <td id="porcentaje-arcocoseno"></td>
+                </tr>
+                <tr>
+                    <td id="errores-raiz"></td>
+                    <td id="porcentaje-raiz"></td>
+                </tr>
+                <tr>
+                    <td id="errores-division"></td>
+                    <td id="porcentaje-division"></td>
+                </tr>
+                <tr>
+                    <td id="errores-logaritmo"></td>
+                    <td id="porcentaje-logaritmo"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="grafico"></div>
+</body>
+</html>
